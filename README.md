@@ -26,3 +26,17 @@
 
 ***EL JUEGO TERMINA CUANDO TODOS LOS JUGADORES A EXCEPCION DE UNO ESTAN EN BANCARROTA***
 
+### Completado          ✅
+### trabajando en ello  💠
+### Por hacer           ❌
+- [💠] tablero de juego
+- [❌] carga de los datos del tablero
+- [❌] jugadores
+- [❌] dado 
+- [❌] movimento jugadores
+- [❌] cartas de *PUMP* (son cartas positivas
+con efecto en las monedas al alza) "estas pueden generar cartas de salida d ela carcel pero no de ir a esta"
+- [❌] cartas de *DUMP* (son cartas negativas con un efecto a la baja de las monedas)
+- [❌] la carcel
+- [❌]cosas a implementar que no me acuerdo (pongan ustedes xd)
+
