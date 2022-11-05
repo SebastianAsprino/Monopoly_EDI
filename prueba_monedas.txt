@@ -1,0 +1,38 @@
+Microsoft Windows [Versión 10.0.22621.674]
+(c) Microsoft Corporation. Todos los derechos reservados.
+
+C:\Users\Sebas\Documents\Repositorio_Github\Monopoly_EDI>C:/ProgramData/Miniconda3/Scripts/activate
+
+(base) C:\Users\Sebas\Documents\Repositorio_Github\Monopoly_EDI>conda activate oop_202230
+
+(oop_202230) C:\Users\Sebas\Documents\Repositorio_Github\Monopoly_EDI>C:/Users/Sebas/.conda/envs/oop_202230/python.exe c:/Users/Sebas/Documents/Repositorio_Github/Monopoly_EDI/monedas.py
+cuenta con $ 420.0  en  ada
+cuenta con $ 100000  en  btc
+cuenta con $ 600000  en  eth
+2.0999999999999996 ada
+100000 btc
+300.0 eth
+cuenta con $ 1259.9999999999998  en  ada
+cuenta con $ 100000  en  btc
+cuenta con $ 120000.0  en  eth
+
+(oop_202230) C:\Users\Sebas\Documents\Repositorio_Github\Monopoly_EDI>monedas.py
+
+(oop_202230) C:\Users\Sebas\Documents\Repositorio_Github\Monopoly_EDI>
+C:/Users/Sebas/.conda/envs/oop_202230/python.exe c:/Users/Sebas/Documents/Repositorio_Github/Monopoly_EDI/monedas.py
+cuenta con $ 420.0  en  ada
+cuenta con $ 100000  en  btc
+cuenta con $ 600000  en  eth
+0.13999999999999999 ada
+100000 btc
+1500 eth
+cuenta con $ 83.99999999999999  en  ada
+cuenta con $ 100000  en  btc
+cuenta con $ 600000  en  eth
+
+(oop_202230) C:\Users\Sebas\Documents\Repositorio_Github\Monopoly_EDI>
+
+
+
+
+la clase monedas y el cambio de esta funciona.

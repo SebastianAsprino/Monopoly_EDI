@@ -29,11 +29,12 @@
 ### Completado          ✅
 ### trabajando en ello  💠
 ### Por hacer           ❌
-- [💠] tablero de juego
-- [❌] carga de los datos del tablero
-- [❌] jugadores
-- [❌] dado 
-- [❌] movimento jugadores
+- [💠ASPRINO] tablero de juego
+- [❌ASPRINO] carga de los datos del tablero
+- [💠ASPRINO] hacer que el precio de las monedas cambie
+- [❌SOLAEZ] jugadores
+- [❌SOLAEZ] dado 
+- [❌SOLAEZ] movimento jugadores
 - [❌] cartas de *PUMP* (son cartas positivas
 con efecto en las monedas al alza) "estas pueden generar cartas de salida d ela carcel pero no de ir a esta"
 - [❌] cartas de *DUMP* (son cartas negativas con un efecto a la baja de las monedas)
