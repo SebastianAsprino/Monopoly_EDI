@@ -31,7 +31,7 @@
 ### Por hacer           ❌
 - [💠ASPRINO] tablero de juego
 - [❌ASPRINO] carga de los datos del tablero
-- [💠ASPRINO] hacer que el precio de las monedas cambie
+- [✅ASPRINO] hacer que el precio de las monedas cambie **05-11-2022/10:10**
 - [❌SOLAEZ] jugadores
 - [❌SOLAEZ] dado 
 - [❌SOLAEZ] movimento jugadores

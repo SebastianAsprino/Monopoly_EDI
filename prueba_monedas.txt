@@ -36,3 +36,453 @@ cuenta con $ 600000  en  eth
 
 
 la clase monedas y el cambio de esta funciona.
+
+
+Microsoft Windows [Versión 10.0.22621.674]
+(c) Microsoft Corporation. Todos los derechos reservados.
+
+C:\Users\Sebas\Documents\Repositorio_Github\Monopoly_EDI>C:/ProgramData/Miniconda3/Scripts/activate
+
+(base) C:\Users\Sebas\Documents\Repositorio_Github\Monopoly_EDI>conda activate oop_202230
+
+(oop_202230) C:\Users\Sebas\Documents\Repositorio_Github\Monopoly_EDI>C:/Users/Sebas/.conda/envs/oop_202230/python.exe c:/Users/Sebas/Documents/Repositorio_Github/Monopoly_EDI/monedas.py
+cuenta con $ 420.0  en  ADA
+cuenta con $ 100000  en  BTC
+cuenta con $ 600000  en  ETH
+0.7 ADA
+2600000 BTC
+1500 ETH
+cuenta con $ 420.0  en  ADA
+cuenta con $ 2600000  en  BTC
+cuenta con $ 600000  en  ETH
+
+(oop_202230) C:\Users\Sebas\Documents\Repositorio_Github\Monopoly_EDI>C:/Users/Sebas/.conda/envs/oop_202230/python.exe c:/Users/Sebas/Documents/Repositorio_Github/Monopoly_EDI/monedas.py
+cuenta con $ 420.0  en  ADA
+cuenta con $ 100000  en  BTC
+cuenta con $ 600000  en  ETH
+0.7 ADA
+30000.0 BTC
+69000 ETH
+cuenta con $ 420.0  en  ADA
+cuenta con $ 30000.0  en  BTC
+cuenta con $ 27600000  en  ETH
+
+(oop_202230) C:\Users\Sebas\Documents\Repositorio_Github\Monopoly_EDI>C:/Users/Sebas/.conda/envs/oop_202230/python.exe c:/Users/Sebas/Documents/Repositorio_Github/Monopoly_EDI/monedas.py
+cuenta con $ 420.0  en  ADA
+cuenta con $ 100000  en  BTC
+cuenta con $ 600000  en  ETH
+0.581 ADA
+3800000 BTC
+15000 ETH
+cuenta con $ 348.59999999999997  en  ADA
+cuenta con $ 3800000  en  BTC
+cuenta con $ 6000000  en  ETH
+
+(oop_202230) C:\Users\Sebas\Documents\Repositorio_Github\Monopoly_EDI>C:/Users/Sebas/.conda/envs/oop_202230/python.exe c:/Users/Sebas/Documents/Repositorio_Github/Monopoly_EDI/monedas.py
+cuenta con $ 420.0  en  ADA
+cuenta con $ 100000  en  BTC
+cuenta con $ 600000  en  ETH
+0.378 ADA
+61000.0 BTC
+13500 ETH
+cuenta con $ 226.8  en  ADA
+cuenta con $ 61000.0  en  BTC
+cuenta con $ 5400000  en  ETH
+
+(oop_202230) C:\Users\Sebas\Documents\Repositorio_Github\Monopoly_EDI>C:/Users/Sebas/.conda/envs/oop_202230/python.exe c:/Users/Sebas/Documents/Repositorio_Github/Monopoly_EDI/monedas.py
+cuenta con $ 420.0  en  ADA
+cuenta con $ 100000.0  en  BTC
+cuenta con $ 600000.0  en  ETH
+cuenta con $ 400.0  en  DOGE
+0.7 ADA
+1600000.0 BTC
+4500.0 ETH
+2.2 DOGE
+cuenta con $ 420.0  en  ADA
+cuenta con $ 1600000.0  en  BTC
+cuenta con $ 1800000.0  en  ETH
+cuenta con $ 17600.0  en  DOGE
+
+(oop_202230) C:\Users\Sebas\Documents\Repositorio_Github\Monopoly_EDI>C:/Users/Sebas/.conda/envs/oop_202230/python.exe c:/Users/Sebas/Documents/Repositorio_Github/Monopoly_EDI/monedas.py
+cuenta con $ 420.0  en  ADA
+cuenta con $ 100000.0  en  BTC
+cuenta con $ 600000.0  en  ETH
+cuenta con $ 400.0  en  DOGE
+0.7 ADA
+2300000.0 BTC
+1500.0 ETH
+0.05 DOGE
+cuenta con $ 420.0  en  ADA
+cuenta con $ 2300000.0  en  BTC
+cuenta con $ 600000.0  en  ETH
+cuenta con $ 400.0  en  DOGE
+
+(oop_202230) C:\Users\Sebas\Documents\Repositorio_Github\Monopoly_EDI>C:/Users/Sebas/.conda/envs/oop_202230/python.exe c:/Users/Sebas/Documents/Repositorio_Github/Monopoly_EDI/monedas.py
+cuenta con $ 420.0  en  ADA
+cuenta con $ 100000.0  en  BTC
+cuenta con $ 600000.0  en  ETH
+cuenta con $ 400.0  en  DOGE
+19.599999999999998 ADA
+300000.0 BTC
+33000.0 ETH
+0.8 DOGE
+cuenta con $ 11759.999999999998  en  ADA
+cuenta con $ 300000.0  en  BTC
+cuenta con $ 13200000.0  en  ETH
+cuenta con $ 6400.0  en  DOGE
+
+(oop_202230) C:\Users\Sebas\Documents\Repositorio_Github\Monopoly_EDI>C:/Users/Sebas/.conda/envs/oop_202230/python.exe c:/Users/Sebas/Documents/Repositorio_Github/Monopoly_EDI/monedas.py
+cuenta con $ 420.0  en  ADA
+cuenta con $ 100000.0  en  BTC
+cuenta con $ 600000.0  en  ETH
+cuenta con $ 400.0  en  DOGE
+4.8999999999999995 ADA
+2600000.0 BTC
+21000.0 ETH
+1.25 DOGE
+cuenta con $ 2939.9999999999995  en  ADA
+cuenta con $ 2600000.0  en  BTC
+cuenta con $ 8400000.0  en  ETH
+cuenta con $ 10000.0  en  DOGE
+
+(oop_202230) C:\Users\Sebas\Documents\Repositorio_Github\Monopoly_EDI>C:/Users/Sebas/.conda/envs/oop_202230/python.exe c:/Users/Sebas/Documents/Repositorio_Github/Monopoly_EDI/monedas.py
+cuenta con $ 420.0  en  ADA
+cuenta con $ 100000.0  en  BTC
+cuenta con $ 600000.0  en  ETH
+cuenta con $ 400.0  en  DOGE
+6.3 ADA
+3900000.0 BTC
+45000.0 ETH
+0.9 DOGE
+cuenta con $ 3780.0  en  ADA
+cuenta con $ 3900000.0  en  BTC
+cuenta con $ 18000000.0  en  ETH
+cuenta con $ 7200.0  en  DOGE
+
+(oop_202230) C:\Users\Sebas\Documents\Repositorio_Github\Monopoly_EDI>C:/Users/Sebas/.conda/envs/oop_202230/python.exe c:/Users/Sebas/Documents/Repositorio_Github/Monopoly_EDI/monedas.py
+cuenta con $ 420.0  en  ADA
+cuenta con $ 100000.0  en  BTC
+cuenta con $ 600000.0  en  ETH
+cuenta con $ 400.0  en  DOGE
+17.5 ADA
+2600000.0 BTC
+48000.0 ETH
+2.45 DOGE
+cuenta con $ 10500.0  en  ADA
+cuenta con $ 2600000.0  en  BTC
+cuenta con $ 19200000.0  en  ETH
+cuenta con $ 19600.0  en  DOGE
+
+(oop_202230) C:\Users\Sebas\Documents\Repositorio_Github\Monopoly_EDI>C:/Users/Sebas/.conda/envs/oop_202230/python.exe c:/Users/Sebas/Documents/Repositorio_Github/Monopoly_EDI/monedas.py
+cuenta con $ 420.0  en  ADA
+cuenta con $ 100000.0  en  BTC
+cuenta con $ 600000.0  en  ETH
+cuenta con $ 400.0  en  DOGE
+14.0 ADA
+2700000.0 BTC
+6000.0 ETH
+2.0500000000000003 DOGE
+cuenta con $ 8400.0  en  ADA
+cuenta con $ 2700000.0  en  BTC
+cuenta con $ 2400000.0  en  ETH
+cuenta con $ 16400.000000000004  en  DOGE
+
+(oop_202230) C:\Users\Sebas\Documents\Repositorio_Github\Monopoly_EDI>C:/Users/Sebas/.conda/envs/oop_202230/python.exe c:/Users/Sebas/Documents/Repositorio_Github/Monopoly_EDI/monedas.py
+cuenta con $ 420.0  en  ADA
+cuenta con $ 100000.0  en  BTC
+cuenta con $ 600000.0  en  ETH
+cuenta con $ 400.0  en  DOGE
+17.5 ADA
+1300000.0 BTC
+58500.0 ETH
+0.9 DOGE
+cuenta con $ 10500.0  en  ADA
+cuenta con $ 1300000.0  en  BTC
+cuenta con $ 23400000.0  en  ETH
+cuenta con $ 7200.0  en  DOGE
+
+(oop_202230) C:\Users\Sebas\Documents\Repositorio_Github\Monopoly_EDI>C:/Users/Sebas/.conda/envs/oop_202230/python.exe c:/Users/Sebas/Documents/Repositorio_Github/Monopoly_EDI/monedas.py
+cuenta con $ 420.0  en  ADA
+cuenta con $ 100000.0  en  BTC
+cuenta con $ 600000.0  en  ETH
+cuenta con $ 400.0  en  DOGE
+25.2 ADA
+2500000.0 BTC
+61500.0 ETH
+2.3000000000000003 DOGE
+cuenta con $ 15120.0  en  ADA
+cuenta con $ 2500000.0  en  BTC
+cuenta con $ 24600000.0  en  ETH
+cuenta con $ 18400.000000000004  en  DOGE
+
+(oop_202230) C:\Users\Sebas\Documents\Repositorio_Github\Monopoly_EDI>C:/Users/Sebas/.conda/envs/oop_202230/python.exe c:/Users/Sebas/Documents/Repositorio_Github/Monopoly_EDI/monedas.py
+cuenta con $ 420.0  en  ADA
+cuenta con $ 100000.0  en  BTC
+cuenta con $ 600000.0  en  ETH
+cuenta con $ 400.0  en  DOGE
+25.2 ADA
+400000.0 BTC
+57000.0 ETH
+0.55 DOGE
+cuenta con $ 15120.0  en  ADA
+cuenta con $ 400000.0  en  BTC
+cuenta con $ 22800000.0  en  ETH
+cuenta con $ 4400.0  en  DOGE
+
+(oop_202230) C:\Users\Sebas\Documents\Repositorio_Github\Monopoly_EDI>C:/Users/Sebas/.conda/envs/oop_202230/python.exe c:/Users/Sebas/Documents/Repositorio_Github/Monopoly_EDI/monedas.py
+cuenta con $ 420.0  en  ADA
+cuenta con $ 100000.0  en  BTC
+cuenta con $ 600000.0  en  ETH
+cuenta con $ 400.0  en  DOGE
+27.299999999999997 ADA
+4300000.0 BTC
+67500.0 ETH
+2.25 DOGE
+cuenta con $ 16379.999999999998  en  ADA
+cuenta con $ 4300000.0  en  BTC
+cuenta con $ 27000000.0  en  ETH
+cuenta con $ 18000.0  en  DOGE
+
+(oop_202230) C:\Users\Sebas\Documents\Repositorio_Github\Monopoly_EDI>C:/Users/Sebas/.conda/envs/oop_202230/python.exe c:/Users/Sebas/Documents/Repositorio_Github/Monopoly_EDI/monedas.py
+cuenta con $ 420.0  en  ADA
+cuenta con $ 100000.0  en  BTC
+cuenta con $ 600000.0  en  ETH
+cuenta con $ 400.0  en  DOGE
+32.199999999999996 ADA
+5000000.0 BTC
+57000.0 ETH
+1.2000000000000002 DOGE
+cuenta con $ 19319.999999999996  en  ADA
+cuenta con $ 5000000.0  en  BTC
+cuenta con $ 22800000.0  en  ETH
+cuenta con $ 9600.000000000002  en  DOGE
+
+(oop_202230) C:\Users\Sebas\Documents\Repositorio_Github\Monopoly_EDI>C:/Users/Sebas/.conda/envs/oop_202230/python.exe c:/Users/Sebas/Documents/Repositorio_Github/Monopoly_EDI/monedas.py
+cuenta con $ 420.0  en  ADA
+cuenta con $ 100000.0  en  BTC
+cuenta con $ 600000.0  en  ETH
+cuenta con $ 400.0  en  DOGE
+12.6 ADA
+2400000.0 BTC
+3000.0 ETH
+1.5 DOGE
+cuenta con $ 7560.0  en  ADA
+cuenta con $ 2400000.0  en  BTC
+cuenta con $ 1200000.0  en  ETH
+cuenta con $ 12000.0  en  DOGE
+
+(oop_202230) C:\Users\Sebas\Documents\Repositorio_Github\Monopoly_EDI>C:/Users/Sebas/.conda/envs/oop_202230/python.exe c:/Users/Sebas/Documents/Repositorio_Github/Monopoly_EDI/monedas.py
+cuenta con $ 420.0  en  ADA
+cuenta con $ 100000.0  en  BTC
+cuenta con $ 600000.0  en  ETH
+cuenta con $ 400.0  en  DOGE
+21.0 ADA
+1300000.0 BTC
+30000.0 ETH
+1.05 DOGE
+cuenta con $ 12600.0  en  ADA
+cuenta con $ 1300000.0  en  BTC
+cuenta con $ 12000000.0  en  ETH
+cuenta con $ 8400.0  en  DOGE
+
+(oop_202230) C:\Users\Sebas\Documents\Repositorio_Github\Monopoly_EDI>C:/Users/Sebas/.conda/envs/oop_202230/python.exe c:/Users/Sebas/Documents/Repositorio_Github/Monopoly_EDI/monedas.py
+cuenta con $ 420.0  en  ADA
+cuenta con $ 100000.0  en  BTC
+cuenta con $ 600000.0  en  ETH
+cuenta con $ 400.0  en  DOGE
+25.2 ADA
+1600000.0 BTC
+48000.0 ETH
+0.4 DOGE
+cuenta con $ 15120.0  en  ADA
+cuenta con $ 1600000.0  en  BTC
+cuenta con $ 19200000.0  en  ETH
+cuenta con $ 3200.0  en  DOGE
+
+(oop_202230) C:\Users\Sebas\Documents\Repositorio_Github\Monopoly_EDI>C:/Users/Sebas/.conda/envs/oop_202230/python.exe c:/Users/Sebas/Documents/Repositorio_Github/Monopoly_EDI/monedas.py
+cuenta con $ 420.0  en  ADA
+cuenta con $ 100000.0  en  BTC
+cuenta con $ 600000.0  en  ETH
+cuenta con $ 400.0  en  DOGE
+8.399999999999999 ADA
+3300000.0 BTC
+73500.0 ETH
+2.3000000000000003 DOGE
+cuenta con $ 5039.999999999999  en  ADA
+cuenta con $ 3300000.0  en  BTC
+cuenta con $ 29400000.0  en  ETH
+cuenta con $ 18400.000000000004  en  DOGE
+
+(oop_202230) C:\Users\Sebas\Documents\Repositorio_Github\Monopoly_EDI>C:/Users/Sebas/.conda/envs/oop_202230/python.exe c:/Users/Sebas/Documents/Repositorio_Github/Monopoly_EDI/monedas.py
+cuenta con $ 420.0  en  ADA
+cuenta con $ 100000.0  en  BTC
+cuenta con $ 600000.0  en  ETH
+cuenta con $ 400.0  en  DOGE
+2.0999999999999996 ADA
+700000.0 BTC
+72000.0 ETH
+1.4000000000000001 DOGE
+cuenta con $ 1259.9999999999998  en  ADA
+cuenta con $ 700000.0  en  BTC
+cuenta con $ 28800000.0  en  ETH
+cuenta con $ 11200.000000000002  en  DOGE
+
+(oop_202230) C:\Users\Sebas\Documents\Repositorio_Github\Monopoly_EDI>C:/Users/Sebas/.conda/envs/oop_202230/python.exe c:/Users/Sebas/Documents/Repositorio_Github/Monopoly_EDI/monedas.py
+cuenta con $ 420.0  en  ADA
+cuenta con $ 100000.0  en  BTC
+cuenta con $ 600000.0  en  ETH
+cuenta con $ 400.0  en  DOGE
+29.4 ADA
+400000.0 BTC
+55500.0 ETH
+1.05 DOGE
+cuenta con $ 17640.0  en  ADA
+cuenta con $ 400000.0  en  BTC
+cuenta con $ 22200000.0  en  ETH
+cuenta con $ 8400.0  en  DOGE
+
+(oop_202230) C:\Users\Sebas\Documents\Repositorio_Github\Monopoly_EDI>C:/Users/Sebas/.conda/envs/oop_202230/python.exe c:/Users/Sebas/Documents/Repositorio_Github/Monopoly_EDI/monedas.py
+cuenta con $ 420.0  en  ADA
+cuenta con $ 100000.0  en  BTC
+cuenta con $ 600000.0  en  ETH
+cuenta con $ 400.0  en  DOGE
+20.299999999999997 ADA
+1200000.0 BTC
+43500.0 ETH
+1.7000000000000002 DOGE
+cuenta con $ 12179.999999999998  en  ADA
+cuenta con $ 1200000.0  en  BTC
+cuenta con $ 17400000.0  en  ETH
+cuenta con $ 13600.000000000002  en  DOGE
+
+(oop_202230) C:\Users\Sebas\Documents\Repositorio_Github\Monopoly_EDI>C:/Users/Sebas/.conda/envs/oop_202230/python.exe c:/Users/Sebas/Documents/Repositorio_Github/Monopoly_EDI/monedas.py
+cuenta con $ 420.0  en  ADA
+cuenta con $ 100000.0  en  BTC
+cuenta con $ 600000.0  en  ETH
+cuenta con $ 400.0  en  DOGE
+35.0 ADA
+5000000.0 BTC
+27000.0 ETH
+0.8 DOGE
+cuenta con $ 21000.0  en  ADA
+cuenta con $ 5000000.0  en  BTC
+cuenta con $ 10800000.0  en  ETH
+cuenta con $ 6400.0  en  DOGE
+
+(oop_202230) C:\Users\Sebas\Documents\Repositorio_Github\Monopoly_EDI>
+
+
+
+estado actual de la calse cambio de moneda con la implementacion de la tasa de cambi mas real acorde al mercado crypto.
+
+Microsoft Windows [Versión 10.0.22621.674]
+(c) Microsoft Corporation. Todos los derechos reservados.
+
+C:\Users\Sebas\Documents\Repositorio_Github\Monopoly_EDI>C:/ProgramData/Miniconda3/Scripts/activate
+
+(base) C:\Users\Sebas\Documents\Repositorio_Github\Monopoly_EDI>conda activate oop_202230
+
+(oop_202230) C:\Users\Sebas\Documents\Repositorio_Github\Monopoly_EDI>C:/Users/Sebas/.conda/envs/oop_202230/python.exe c:/Users/Sebas/Documents/Repositorio_Github/Monopoly_EDI/monedas.py
+cuenta con $ 420.0  en  ADA
+cuenta con $ 100000.0  en  BTC
+cuenta con $ 600000.0  en  ETH
+cuenta con $ 400.0  en  DOGE
+1.6862458131765645 ADA
+2104152.273919232 BTC
+27072.457664105794 ETH
+0.3796458987628548 DOGE
+cuenta con $ 1011.7474879059387  en  ADA
+cuenta con $ 2104152.273919232  en  BTC
+cuenta con $ 10828983.065642318  en  ETH
+cuenta con $ 3037.1671901028385  en  DOGE
+
+(oop_202230) C:\Users\Sebas\Documents\Repositorio_Github\Monopoly_EDI>C:/Users/Sebas/.conda/envs/oop_202230/python.exe c:/Users/Sebas/Documents/Repositorio_Github/Monopoly_EDI/monedas.py
+cuenta con $ 420.0  en  ADA
+cuenta con $ 100000.0  en  BTC
+cuenta con $ 600000.0  en  ETH
+cuenta con $ 400.0  en  DOGE
+2.4495700321496097 ADA
+3018200.5762456106 BTC
+35931.9822782144 ETH
+0.26415980588649907 DOGE
+cuenta con $ 1469.7420192897657  en  ADA
+cuenta con $ 3018200.5762456106  en  BTC
+cuenta con $ 14372792.911285758  en  ETH
+cuenta con $ 2113.2784470919923  en  DOGE
+
+(oop_202230) C:\Users\Sebas\Documents\Repositorio_Github\Monopoly_EDI>C:/Users/Sebas/.conda/envs/oop_202230/python.exe c:/Users/Sebas/Documents/Repositorio_Github/Monopoly_EDI/monedas.py
+cuenta con $ 420.0  en  ADA
+cuenta con $ 100000.0  en  BTC
+cuenta con $ 600000.0  en  ETH
+cuenta con $ 400.0  en  DOGE
+26.193722083915947 ADA
+423386.4950902497 BTC
+71684.49554559324 ETH
+0.6132538758119939 DOGE
+cuenta con $ 15716.233250349569  en  ADA
+cuenta con $ 423386.4950902497  en  BTC
+cuenta con $ 28673798.218237296  en  ETH
+cuenta con $ 4906.031006495951  en  DOGE
+
+(oop_202230) C:\Users\Sebas\Documents\Repositorio_Github\Monopoly_EDI>C:/Users/Sebas/.conda/envs/oop_202230/python.exe c:/Users/Sebas/Documents/Repositorio_Github/Monopoly_EDI/monedas.py
+cuenta con $ 420.0  en  ADA
+cuenta con $ 100000.0  en  BTC
+cuenta con $ 600000.0  en  ETH
+cuenta con $ 400.0  en  DOGE
+34.47147715090054 ADA
+3289036.865888281 BTC
+64811.83842752606 ETH
+2.168277163171004 DOGE
+cuenta con $ 20682.886290540326  en  ADA
+cuenta con $ 3289036.865888281  en  BTC
+cuenta con $ 25924735.371010423  en  ETH
+cuenta con $ 17346.21730536803  en  DOGE
+
+
+ultima prueba de la tasa de cambio monedas.
+
+Microsoft Windows [Versión 10.0.22621.674]
+(c) Microsoft Corporation. Todos los derechos reservados.
+
+C:\Users\Sebas\Documents\Repositorio_Github\Monopoly_EDI>C:/ProgramData/Miniconda3/Scripts/activate
+
+(base) C:\Users\Sebas\Documents\Repositorio_Github\Monopoly_EDI>conda activate oop_202230
+
+(oop_202230) C:\Users\Sebas\Documents\Repositorio_Github\Monopoly_EDI>C:/Users/Sebas/.conda/envs/oop_202230/python.exe c:/Users/Sebas/Documents/Repositorio_Github/Monopoly_EDI/monedas.py
+cuenta con $ 420.0  en  ADA
+cuenta con $ 100000.0  en  BTC
+cuenta con $ 600000.0  en  ETH
+cuenta con $ 400.0  en  DOGE
+0.644 ADA
+915.0 ETH
+cuenta con $ 386.40000000000003  en  ADA
+cuenta con $ 100000.0  en  BTC
+cuenta con $ 366000.0  en  ETH
+cuenta con $ 400.0  en  DOGE
+
+(oop_202230) C:\Users\Sebas\Documents\Repositorio_Github\Monopoly_EDI>C:/Users/Sebas/.conda/envs/oop_202230/python.exe c:/Users/Sebas/Documents/Repositorio_Github/Monopoly_EDI/monedas.py
+cuenta con $ 420.0  en  ADA
+cuenta con $ 100000.0  en  BTC
+cuenta con $ 600000.0  en  ETH
+cuenta con $ 400.0  en  DOGE
+3.864275546561559 ADA
+82000.0 BTC
+315.0 ETH
+0.05 DOGE
+cuenta con $ 2318.5653279369353  en  ADA
+cuenta con $ 82000.0  en  BTC
+cuenta con $ 126000.0  en  ETH
+cuenta con $ 400.0  en  DOGE
+
+(oop_202230) C:\Users\Sebas\Documents\Repositorio_Github\Monopoly_EDI>C:/Users/Sebas/.conda/envs/oop_202230/python.exe c:/Users/Sebas/Documents/Repositorio_Github/Monopoly_EDI/monedas.py
+cuenta con $ 420.0  en  ADA
+cuenta con $ 100000.0  en  BTC
+cuenta con $ 600000.0  en  ETH
+cuenta con $ 400.0  en  DOGE
+100000.0 BTC
+0.05 DOGE
+cuenta con $ 420.0  en  ADA
+cuenta con $ 100000.0  en  BTC
+cuenta con $ 600000.0  en  ETH
+cuenta con $ 400.0  en  DOGE
+terminacion de la clase monedas y la tasa de cambio por ahora
