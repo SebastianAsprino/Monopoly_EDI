@@ -1,46 +1,93 @@
-import pygame
+"""
+Tablero del juego.
+
+Por ahora pide el número de jugadores (2 a 4) en una ventana de Tkinter. El
+dibujo del tablero con pygame está pendiente.
+"""
+
+from pathlib import Path
+from typing import Optional
 import tkinter as tk
 from tkinter import ttk
 
-# funcion de cuand se oprime el boton
-def push():
-    #aqui se deberia anexar el nombre de cada jugador, y su turno
-    acceso = cajon.get()
-    condicion=acceso
-    numjugadores.destroy()
-    if condicion == '2':
-        print("2 jugadores")
-    elif condicion == '3':
-        print("3 jugadores")
-    elif condicion == '4':
-        print("4 jugadores")
+import pygame
 
-# crea la ventana para saber el numero de jugadores
-numjugadores = tk.Tk()
-# estos son los parametros de la ventana principal
-# titulo de la ventana
-numjugadores.title('Jugadores')
-# tamaño y color
-numjugadores.config(width=350,height=106,background='#CBE8E0')
-# iconos
-numjugadores.iconbitmap("assets\logo.ico")
-# texto de laventana
-etiqueta= ttk.Label(text="Numero De Jugadores: ",background='#CBE8E0')
-etiqueta.place(x=18, y=20)
-# la caja de seleccion del numero de jugadores
-cajonstyle = ttk.Style()
-cajonstyle.theme_create('combostyle', parent='alt', settings = {'TCombobox':{'configure':{'selectbackground': '#CBE8E0', 'fieldbackground': '#CBE8E0','background': '#CBE8E0'}}})
-cajonstyle.theme_use('combostyle') 
-cajon = ttk.Combobox(state="readonly",values=['2', '3', '4'])
-cajon.place(x=140, y=20)
-# esta parte se encarga de crear el boton de la seleccion de jugadores
-boton = ttk.Button(text="  ▶  ", command=push )
-boton.place(x=290, y=20)
+RUTA_ICONO = Path(__file__).resolve().parent / "assets" / "logo.ico"
+OPCIONES_JUGADORES = ("2", "3", "4")
+COLOR_FONDO = "#CBE8E0"
+ANCHO_VENTANA = 350
+ALTO_VENTANA = 106
 
-numjugadores.resizable(False, False)
-numjugadores.mainloop()
-# llama todos los modulos de pygame
-pygame.init()
-class tablero:
-    """esta clase crea el visual del tablero"""
-    
+
+def pedir_numero_jugadores() -> Optional[int]:
+    """
+    Muestra una ventana para elegir el número de jugadores.
+
+    Retorna:
+        El número elegido, o ``None`` si se cerró la ventana sin elegir.
+    """
+    jugadores: Optional[int] = None
+
+    ventana = tk.Tk()
+    ventana.title("Jugadores")
+    ventana.config(width=ANCHO_VENTANA, height=ALTO_VENTANA, background=COLOR_FONDO)
+    try:
+        ventana.iconbitmap(str(RUTA_ICONO))
+    except tk.TclError:
+        # Los iconos .ico solo se soportan en Windows
+        pass
+
+    etiqueta = ttk.Label(ventana, text="Numero De Jugadores: ", background=COLOR_FONDO)
+    etiqueta.place(x=18, y=20)
+
+    # Caja de selección del número de jugadores
+    estilo = ttk.Style(ventana)
+    estilo.theme_create(
+        "combostyle",
+        parent="alt",
+        settings={
+            "TCombobox": {
+                "configure": {
+                    "selectbackground": COLOR_FONDO,
+                    "fieldbackground": COLOR_FONDO,
+                    "background": COLOR_FONDO,
+                }
+            }
+        },
+    )
+    estilo.theme_use("combostyle")
+    cajon = ttk.Combobox(ventana, state="readonly", values=OPCIONES_JUGADORES)
+    cajon.place(x=140, y=20)
+
+    def confirmar() -> None:
+        """Guarda la opción elegida y cierra la ventana (si no hay opción, no hace nada)."""
+        # Aquí se debería anexar el nombre de cada jugador y su turno
+        nonlocal jugadores
+        valor = cajon.get()
+        if not valor:
+            return
+        jugadores = int(valor)
+        print(f"{valor} jugadores")
+        ventana.destroy()
+
+    boton = ttk.Button(ventana, text="  ▶  ", command=confirmar)
+    boton.place(x=290, y=20)
+
+    ventana.resizable(False, False)
+    ventana.mainloop()
+    return jugadores
+
+
+class Tablero:
+    """Representación visual del tablero (pendiente de implementar con pygame)."""
+
+
+def main() -> None:
+    """Pide el número de jugadores e inicializa pygame para el tablero."""
+    pedir_numero_jugadores()
+    # Inicializa todos los módulos de pygame
+    pygame.init()
+
+
+if __name__ == "__main__":
+    main()

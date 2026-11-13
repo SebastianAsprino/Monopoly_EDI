@@ -1,71 +1,93 @@
+"""
+Criptomonedas del juego.
+
+En esta versión de Monopoly el dinero son criptomonedas cuyo precio cambia
+cada turno de forma aleatoria, imitando la volatilidad del mercado cripto.
+"""
+
 import random
-class monedas:
-    """crea las monedas y permite modificar su valor cada turno"""
-    
-    def __init__ (self, valor, nombre): ##sd
+
+# Escenarios de mercado; cada uno tiene la misma probabilidad (estable: 50 %).
+MERCADO_ESTABLE = "estable"
+MERCADO_BAJISTA = "bajista"
+MERCADO_ALCISTA = "alcista"
+ESCENARIOS = (MERCADO_ESTABLE, MERCADO_BAJISTA, MERCADO_ALCISTA, MERCADO_ESTABLE)
+
+# En un mercado alcista el precio se multiplica por un factor en este rango.
+FACTOR_ALCISTA_MIN = 2.0
+FACTOR_ALCISTA_MAX = 10.0
+DECIMALES_FACTOR_BAJISTA = 2
+
+
+class Moneda:
+    """Criptomoneda con un precio que cambia cada turno."""
+
+    def __init__(self, valor: float, nombre: str) -> None:
+        """
+        Crea una moneda.
+
+        Parámetros:
+            valor: Precio inicial de una unidad.
+            nombre: Símbolo de la moneda (por ejemplo, ``"BTC"``).
+        """
         self.valor = valor
         self.nombre = nombre
-    def precioactual(self):
-        return print(self.valor, self.nombre)
 
-    def cambioprecio(self):
-        mercado = None
-        porcentaje_de_cambio = None
-        mercado = random.randint(0,3)
-        if mercado == 0:
-            self.valor = self.valor
-            print(self.valor, self.nombre)
-        if mercado == 1:
-            porcentaje_de_cambio = round(random.random(),2)
-            self.valor = self.valor * porcentaje_de_cambio
-            print(self.valor, self.nombre)
-        if mercado == 2:
-            porcentaje_de_cambio = random.uniform(2.0,10.0)
-            ## random.randint(2,50) la segunda implementacio no usaba float
-            self.valor = self.valor * porcentaje_de_cambio
-            print(self.valor, self.nombre)
-    def pruebavalor (self,posee):
+    def precio_actual(self) -> float:
+        """Imprime y retorna el precio actual de la moneda."""
+        print(self.valor, self.nombre)
+        return self.valor
 
-        esto_vale = posee * self.valor
-        return print( 'cuenta con $',esto_vale,' en ', self.nombre)
+    def cambiar_precio(self) -> float:
+        """
+        Cambia el precio según un escenario de mercado aleatorio.
+
+        - Estable: el precio no cambia.
+        - Bajista: el precio se multiplica por un factor entre 0 y 1.
+        - Alcista: el precio se multiplica por un factor entre 2 y 10.
+
+        Retorna:
+            El nuevo precio.
+        """
+        escenario = random.choice(ESCENARIOS)
+        if escenario == MERCADO_BAJISTA:
+            self.valor *= round(random.random(), DECIMALES_FACTOR_BAJISTA)
+        elif escenario == MERCADO_ALCISTA:
+            self.valor *= random.uniform(FACTOR_ALCISTA_MIN, FACTOR_ALCISTA_MAX)
+        return self.precio_actual()
+
+    def valor_en_cartera(self, cantidad: float) -> float:
+        """
+        Imprime y retorna cuánto valen ``cantidad`` unidades de la moneda.
+
+        Parámetros:
+            cantidad: Unidades que posee el jugador.
+        """
+        total = cantidad * self.valor
+        print("cuenta con $", total, " en ", self.nombre)
+        return total
 
 
+def main() -> None:
+    """Demostración: un jugador con varias monedas antes y después de un cambio de precio."""
+    cartera = {
+        Moneda(0.70, "ADA"): 600,
+        Moneda(100000.0, "BTC"): 1,
+        Moneda(1500.0, "ETH"): 400,
+        Moneda(0.05, "DOGE"): 8000,
+    }
+
+    for moneda, cantidad in cartera.items():
+        moneda.valor_en_cartera(cantidad)
+
+    # El precio de las monedas cambia
+    for moneda in cartera:
+        moneda.cambiar_precio()
+
+    # Valor de la cartera después del cambio
+    for moneda, cantidad in cartera.items():
+        moneda.valor_en_cartera(cantidad)
 
 
-
-if __name__ == '__main__':
-    bitcoin = monedas(100000.0, 'BTC')
-    cardano = monedas(0.70, 'ADA')
-    ethereum = monedas(1500.0, 'ETH')
-    doge = monedas(0.05, 'DOGE')
-##    bitcoin.precioactual()
-##    cardano.precioactual()
-##    ethereum.precioactual()
-##    bitcoin.cambioprecio()
-##    cardano.cambioprecio()
-##    ethereum.cambioprecio()
-##    bitcoin.precioactual()
-##    cardano.precioactual()
-##    ethereum.precioactual()
-
-    ## emulo un jugador que tiene x cantidad de cada ejemplo
-
-    wallet_btc  = 1
-    wallet_ada  = 600
-    wallet_eth  = 400
-    wallet_doge = 8000
-    cardano.pruebavalor(wallet_ada)
-    bitcoin.pruebavalor(wallet_btc)
-    ethereum.pruebavalor(wallet_eth)
-    doge.pruebavalor(wallet_doge)
-## probamos que el precio de estas monedas cambia
-    cardano.cambioprecio()
-    bitcoin.cambioprecio()
-    ethereum.cambioprecio()
-    doge.cambioprecio()
-    ## ahora confirmamos cuanto tiene el usuario
-    cardano.pruebavalor(wallet_ada)
-    bitcoin.pruebavalor(wallet_btc)
-    ethereum.pruebavalor(wallet_eth)
-    doge.pruebavalor(wallet_doge)
-
+if __name__ == "__main__":
+    main()
